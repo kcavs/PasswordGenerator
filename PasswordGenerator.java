@@ -1,7 +1,7 @@
 public class PasswordGenerator{
     private String prefix;
     private int rand;
-    private int numPass=0;
+    private static int numPass=0;
     public PasswordGenerator(String p, int r){
         prefix=p;
         rand=r;
